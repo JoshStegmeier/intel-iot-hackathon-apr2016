@@ -6,11 +6,49 @@
     <script src="jquery-2.2.3.min.js"></script>
     <script src="simpleCart.js"></script>
     <script src="myscripts.js"></script>
+    <script src="bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="mystyles.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="bootstrap.css" media="screen" />
+
+    <!-- Custom styles for this template -->
+<link href="navbar-fixed-top.css" rel="stylesheet">
+
 </head>
+
 <body>
-    <div class="header">
-        <div> <a href="#food">Food</a> </div>
-        <div> <a href="#drink">Drink</a> </div>
+
+    <!-- Fixed navbar -->
+       <nav class="navbar navbar-default navbar-fixed-top">
+         <div class="container">
+           <div class="navbar-header">
+             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+             </button>
+             <a class="navbar-brand" href="#">Comida Food Truck</a>
+           </div>
+           <div id="navbar" class="navbar-collapse collapse">
+             <ul class="nav navbar-nav">
+               <li class="active"><a href="#" class="ddnav">Home</a></li>
+               <li><a href="#about" class="ddnav">About</a></li>
+               <li class="dropdown">
+                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Order <span class="caret"></span></a>
+                 <ul class="dropdown-menu">
+                   <li><a href="#food" class="ddnav">Food</a></li>
+                   <li><a href="#drink" class="ddnav">Drink</a></li>
+                   <li><a href="cart.html" class="ddnav">Cart</a></li>
+                 </ul>
+               </li>
+             </ul>
+           </div><!--/.nav-collapse -->
+         </div>
+       </nav>
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="mainImg">
     </div>
 
     <div class="menu">
@@ -45,7 +83,7 @@
 
         </div>
 
-        <div id="drinks">
+        <div id="drink">
             <div class="simpleCart_shelfItem" id="beer">
                 <img src="/images/item_thumb.jpg" class="item_thumb" />
                 <h2 class="item_name"> Beer </h2>

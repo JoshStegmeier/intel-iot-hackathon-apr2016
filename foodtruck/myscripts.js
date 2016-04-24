@@ -17,3 +17,9 @@ simpleCart ({
                 { view: "remove" , text: "Remove" , label: false }
 		    ],
 		});
+
+		$(document).ready(function () {
+		  $(".ddnav").click(function(event) {
+		    $(".navbar-collapse").collapse('hide');
+		  });
+		});
