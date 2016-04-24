@@ -21,8 +21,8 @@
         "name": "blinkLED.xdk"
       },
       "blinkLED.xdke": {
-        "previousModTime": 1461440649000,
-        "modified": 1461440649000,
+        "previousModTime": 1461446294000,
+        "modified": 1461446294000,
         "seen": true,
         "name": "blinkLED.xdke"
       },
@@ -53,19 +53,19 @@
     },
     "boardFileStatus": {
       "README.md": {
-        "previousModTime": 1461441415607
+        "previousModTime": 1461449126327
       },
       "icon.png": {
-        "previousModTime": 1461441415607
+        "previousModTime": 1461449126327
       },
       "main.js": {
-        "previousModTime": 1461441415607
+        "previousModTime": 1461449126327
       },
       "package.json": {
-        "previousModTime": 1461441415607
+        "previousModTime": 1461449126327
       },
       "xdk/project-info.json": {
-        "previousModTime": 1461441415607
+        "previousModTime": 1461449126327
       }
     }
   }

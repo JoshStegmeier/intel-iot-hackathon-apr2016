@@ -1,0 +1,56 @@
+{
+  "project": {
+    "projectSettingsVersion": "2.0.0",
+    "initialAutoPluginCount": 0,
+    "currentBuildConfiguration": "Android",
+    "projectFiles": {},
+    "projectDirectories": {}
+  },
+  "iot-tab": {
+    "fileStatus": {
+      "README.md": {
+        "previousModTime": 1461455758000,
+        "modified": 1461455758000,
+        "seen": true,
+        "name": "README.md"
+      },
+      "icon.png": {
+        "previousModTime": 1461455758000,
+        "modified": 1461455758000,
+        "seen": true,
+        "name": "icon.png"
+      },
+      "main.js": {
+        "previousModTime": 1461455776000,
+        "modified": 1461455776000,
+        "seen": true,
+        "name": "main.js"
+      },
+      "package.json": {
+        "previousModTime": 1461455758000,
+        "modified": 1461455758000,
+        "seen": true,
+        "name": "package.json"
+      },
+      "sparkfun_ble_echo.xdk": {
+        "previousModTime": 1461455758000,
+        "modified": 1461455758000,
+        "seen": true,
+        "name": "sparkfun_ble_echo.xdk"
+      },
+      "sparkfun_ble_echo.xdke": {
+        "previousModTime": 1461455922000,
+        "modified": 1461455922000,
+        "seen": true,
+        "name": "sparkfun_ble_echo.xdke"
+      },
+      "xdk/project-info.json": {
+        "previousModTime": 1461455758000,
+        "modified": 1461455758000,
+        "seen": true,
+        "name": "xdk/project-info.json"
+      }
+    },
+    "boardFileStatus": {}
+  }
+}

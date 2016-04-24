@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food Truck Test</title>
+    <script src="jquery-2.2.3.min.js"></script>
+    <script src="simpleCart.js"></script>
+    <script src="myscripts.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div> <a href="#food">Food</a> </div>
+        <div> <a href="#drink">Drink</a> </div>
+    </div>
+
+    <div class="menu">
+        <div id="food">
+
+            <div class="simpleCart_shelfItem" id="taco">
+        	    <img src="/images/item_thumb.jpg" class="item_thumb" />
+        	    <h2 class="item_name"> Tacos </h2>
+        	 	<select class="item_size">
+        	        <option value="Pork"> Pork </option>
+        	        <option value="Chorizo"> Chorizo </option>
+        	        <option value="Shrimp"> Shrimp </option>
+                    <option value="Vegetarian"> Vegetarian </option>
+        	    </select>
+        	    <input type="text" value="1" class="item_Quantity">
+        	    <span class="item_price">$3.99</span>
+        		<a class="item_add" href="javascript:;"> Add to Cart </a>
+            </div>
+
+            <div class="simpleCart_shelfItem" id="quesadilla">
+                <img src="/images/item_thumb.jpg" class="item_thumb" />
+                <h2 class="item_name"> Quesadillas </h2>
+                <select class="item_size">
+                    <option value="Chicken"> Chicken </option>
+                    <option value="Cheese"> Cheese </option>
+                    <option value="Vegetarian"> Vegetarian </option>
+                </select>
+                <input type="text" value="1" class="item_Quantity">
+                <span class="item_price">$5.49</span>
+                <a class="item_add" href="javascript:;"> Add to Cart </a>
+            </div>
+
+        </div>
+
+        <div id="drinks">
+            <div class="simpleCart_shelfItem" id="beer">
+                <img src="/images/item_thumb.jpg" class="item_thumb" />
+                <h2 class="item_name"> Beer </h2>
+                <select class="item_size">
+                    <option value="Modelo Especial"> Modelo Especial </option>
+                    <option value="Tecate"> Tecate </option>
+                    <option value="Stella Artois"> Stella Artois </option>
+                    <option value="PBR Tall Boy"> PBR Tall Boy </option>
+                </select>
+                <input type="text" value="1" class="item_Quantity">
+                <span class="item_price">$4.25</span>
+                <a class="item_add" href="javascript:;"> Add to Cart </a>
+            </div>
+
+            <div class="simpleCart_shelfItem" id="wine">
+                <img src="/images/item_thumb.jpg" class="item_thumb" />
+                <h2 class="item_name"> Wine </h2>
+                <select class="item_size">
+                    <option value="Taron White"> Taron White </option>
+                    <option value="Taron Red"> Taron Red </option>
+                    <option value="Comida Sangria"> Comida Sangria </option>
+                </select>
+                <input type="text" value="1" class="item_Quantity">
+                <span class="item_price">$5.50</span>
+                <a class="item_add" href="javascript:;"> Add to Cart </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- show the cart -->
+    <div class="simpleCart_items">SHOW THE CART</div>
+
+    <!-- cart total (ex. $23.11)-->
+    <div class="simpleCart_total">CART TOTAL</div>
+
+</body>
+</html>
