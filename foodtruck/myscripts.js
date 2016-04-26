@@ -1,14 +1,14 @@
 simpleCart ({
 			checkout: {
 				type: "PayPal" ,
-				email: "you@yours.com",
+				email: "payment@eatcomida.com",
 				success: "success.html"
 			},
             tax: 0.08,
             currency: "USD",
 			taxRate: 0.08,
             cartColumns: [
-                { attr: "name" , label: "Name" },
+                { attr: "name" , label: "Name" , },
                 { attr: "price" , label: "Price", view: 'currency' },
                 { view: "decrement" , label: false },
                 { attr: "quantity" , label: "Qty" },
@@ -22,4 +22,13 @@ simpleCart ({
 		  $(".ddnav").click(function(event) {
 		    $(".navbar-collapse").collapse('hide');
 		  });
+		});
+
+		var request = "img/gps1.json";
+		console.log(request);
+
+		$.get(request, function( data ) {
+			if (data.status === "OK") {
+				console.log("RECEIVED OK!");
+			}
 		});

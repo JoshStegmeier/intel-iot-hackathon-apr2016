@@ -3,8 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <title>Thank you for your order!</title>
+    <script src="jquery-2.2.3.min.js"></script>
+    <script src="simpleCart.js"></script>
+    <script src="myscripts.js"></script>
+    <script src="bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="mystyles.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="bootstrap.css" media="screen" />
+    <link href="navbar-fixed-top.css" rel="stylesheet">
 </head>
 <body>
+
+    <!-- Fixed navbar -->
+       <nav class="navbar navbar-default navbar-fixed-top">
+         <div class="container">
+           <div class="navbar-header">
+             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+             </button>
+             <a class="navbar-brand" href="#">Comida Food Truck</a>
+           </div>
+           <div id="navbar" class="navbar-collapse collapse">
+             <ul class="nav navbar-nav">
+               <li><a href="#" class="ddnav">Home</a></li>
+               <li><a href="whereAmI.html" class="ddnav">Where Am I?</a></li>
+               <li class="dropdown">
+                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
+                 <ul class="dropdown-menu">
+                   <li><a href="#food" class="ddnav">Food</a></li>
+                   <li><a href="#drink" class="ddnav">Drink</a></li>
+                 </ul>
+               </li>
+                   <li><a href="cart.html" class="ddnav">Cart</a></li>
+             </ul>
+           </div><!--/.nav-collapse -->
+         </div>
+       </nav>
+      </div><!-- /.container-fluid -->
+    </nav>
+
     <div>Thank you for supporting your local food truck! Your order will be ready in __ minutes. Here's a real-time location of the food truck.</div>
+
+    <div>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1535.3557178302606!2d-104.9646319!3d39.6787053!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x521bf13d15041766!2sDriscoll+Student+Center!5e0!3m2!1sen!2sus!4v1461523746731" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+    </div>
 </body>
 </html>

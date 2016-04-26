@@ -9,9 +9,7 @@
     <script src="bootstrap.js"></script>
     <link rel="stylesheet" type="text/css" href="mystyles.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="bootstrap.css" media="screen" />
-
-    <!-- Custom styles for this template -->
-<link href="navbar-fixed-top.css" rel="stylesheet">
+    <link href="navbar-fixed-top.css" rel="stylesheet">
 
 </head>
 
@@ -32,15 +30,15 @@
            <div id="navbar" class="navbar-collapse collapse">
              <ul class="nav navbar-nav">
                <li class="active"><a href="#" class="ddnav">Home</a></li>
-               <li><a href="#about" class="ddnav">About</a></li>
+               <li><a href="whereAmI.html" class="ddnav">Where Am I?</a></li>
                <li class="dropdown">
-                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Order <span class="caret"></span></a>
+                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
                  <ul class="dropdown-menu">
                    <li><a href="#food" class="ddnav">Food</a></li>
                    <li><a href="#drink" class="ddnav">Drink</a></li>
-                   <li><a href="cart.html" class="ddnav">Cart</a></li>
                  </ul>
                </li>
+                   <li><a href="cart.html" class="ddnav">Cart</a></li>
              </ul>
            </div><!--/.nav-collapse -->
          </div>
@@ -55,7 +53,6 @@
         <div id="food">
 
             <div class="simpleCart_shelfItem" id="taco">
-        	    <img src="/images/item_thumb.jpg" class="item_thumb" />
         	    <h2 class="item_name"> Tacos </h2>
         	 	<select class="item_size">
         	        <option value="Pork"> Pork </option>
@@ -69,7 +66,6 @@
             </div>
 
             <div class="simpleCart_shelfItem" id="quesadilla">
-                <img src="/images/item_thumb.jpg" class="item_thumb" />
                 <h2 class="item_name"> Quesadillas </h2>
                 <select class="item_size">
                     <option value="Chicken"> Chicken </option>
@@ -85,7 +81,6 @@
 
         <div id="drink">
             <div class="simpleCart_shelfItem" id="beer">
-                <img src="/images/item_thumb.jpg" class="item_thumb" />
                 <h2 class="item_name"> Beer </h2>
                 <select class="item_size">
                     <option value="Modelo Especial"> Modelo Especial </option>
@@ -99,7 +94,6 @@
             </div>
 
             <div class="simpleCart_shelfItem" id="wine">
-                <img src="/images/item_thumb.jpg" class="item_thumb" />
                 <h2 class="item_name"> Wine </h2>
                 <select class="item_size">
                     <option value="Taron White"> Taron White </option>
@@ -114,10 +108,11 @@
     </div>
 
     <!-- show the cart -->
-    <div class="simpleCart_items">SHOW THE CART</div>
+    <!-- <div class="simpleCart_items">SHOW THE CART</div> -->
 
     <!-- cart total (ex. $23.11)-->
-    <div class="simpleCart_total">CART TOTAL</div>
+    <div>CART TOTAL:</div>
+    <div class="simpleCart_total"></div>
 
 </body>
 </html>
